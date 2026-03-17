@@ -1,11 +1,26 @@
-/* ✅ Mobile first — add complexity upward */
-body {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1fr;
+@font-face {
+  font-family: "newregular";
+  src: url("/static/fonts/whiterabbit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (min-width: 768px) {
+body {
+  background-color: black;
+  font-size: 2em;
+  font-family: "newregular";
+  color: #24d12c;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+}
+
+#console-text-area {
+  margin-top: 5%;
+  margin-left: 4%;
+  width: 100%;
+}
+
+/* @media (min-width: 768px) {
   body {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -15,4 +30,4 @@ body {
   body {
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} */
