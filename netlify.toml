@@ -1,7 +1,2 @@
 [build]
-  publish = "ui"
-
-[[redirects]]
-  from = "/"
-  to = "/html/index.html"
-  status = 200
+  publish = "."
