@@ -1,4 +1,5 @@
 # Matrix
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8b082c83-c983-4c8d-a0bd-18f21d3cdd6d/deploy-status)](https://app.netlify.com/projects/neoscomputer/deploys)
 
 A Matrix-themed web app that recreates the iconic terminal scene from the film. It displays the classic messages character by character with a blinking cursor effect.
 
@@ -28,4 +29,7 @@ matrix/
 
 ## Running
 
-Double click 
+Double click the index.html file and open in a browser.
+
+## Demo
+https://neoscomputer.netlify.app/
